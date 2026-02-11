@@ -11,7 +11,7 @@ function Taskcomponent(props) {
                 {props.content}
             </div>
             <div className="text-center mt-4">
-                <button className=" bg-neutral-300 hover:bg-neutral-400 transition rounded-md px-4 py-1.5 text-sm font-medium">
+                <button className=" bg-neutral-300 hover:bg-neutral-400 transition rounded-md px-4 py-1.5 text-sm font-medium" >
                     Apply Now
                 </button>
             </div>
