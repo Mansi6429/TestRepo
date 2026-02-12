@@ -6,9 +6,9 @@ function Task21() {
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-9 place-items-center p-10'>
             <Taskcomponent1 img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqiahQlfsj9RRXANieQG_Zpk_8azfcIio7fQ&s"
                 Description="Blaupunkt 139 cm(55 inch) QLED Ultra H ..."
-                Discount_price="Just Rs. 34,499*"
-                original_price="Rs. 39,999"
-                Prev_price="Rs. 59,999"
+                Discount_price="Just ₹34,499*"
+                original_price="₹39,999"
+                Prev_price="₹59,999"
             />
 
             <Taskcomponent1 img src="https://m.media-amazon.com/images/I/81F+u+eceiL._AC_UF1000,1000_QL80_.jpg"
