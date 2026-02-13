@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h2>Trim:</h2>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <p id="demo4"></p>
+    <script>
+        let text1 = "Hello World! ";
+        let text2 = text1.trim();
+        document.getElementById("demo").innerHTML =
+            "Length text1 = " + text1.length + "<br>Length text2 = " + text2.length;
+
+        // trimStart
+        let letter1 = "  Hello World!";
+        let letter2 = text1.trimStart();
+
+        document.getElementById("demo1").innerHTML =
+            "Trimstart:<br>Length letter1 = " + letter1.length + "<br>Length letter2 = " + letter2.length;
+
+        // trimend()
+        let word1 = " Hello World!  ";
+        let word2 = text1.trimStart();
+
+        document.getElementById("demo2").innerHTML =
+            "Trimend:<br>Length word1 = " + word1.length + "<br>Length word2 = " + word2.length;
+
+        // padstrat()
+        let text = "5";
+        text = text.padStart(5, "0");
+        document.getElementById("demo3").innerHTML = "padStart() method pads a string from the start:" + text;
+
+        // padend()
+        let letter = "7";
+        letter = letter.padEnd(3, "0");
+        document.getElementById("demo4").innerHTML = "padEnd() method pads a string from the end:" + letter;
+    </script>
+
+</body>
+
+</html>

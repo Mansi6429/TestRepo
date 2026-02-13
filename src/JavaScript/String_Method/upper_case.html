@@ -1,0 +1,33 @@
+<!-- Upper_Case() -->
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+
+    <script>
+        let text = "good evening!!!";
+        document.getElementById("demo").innerHTML = "Uppercase:" + text.toUpperCase();
+
+        // lower_case()
+        let text1 = "HOW ARE YOU";
+        document.getElementById("demo1").innerHTML = "Lowercase:" + text1.toLowerCase();
+
+        // isWellformed()
+        let text2 = "Hello world!";
+        let result = text2.isWellFormed();
+        document.getElementById("demo2").innerHTML = "WellFormed() returns true if a string is well formed:" + result;
+
+        // towellformed()
+        let text3 = "Hello world \uD800";
+        let result1 = text3.toWellFormed();
+        document.getElementById("demo3").innerHTML = "replaced with the Unicode replacement character U+FFFD:" + result1;
+    </script>
+
+</body>
+
+</html>

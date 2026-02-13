@@ -1,0 +1,39 @@
+<!-- String length() -->
+<!DOCTYPE html>
+<html>
+
+<body>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <p id="demo4"></p>
+
+    <script>
+        let text = "How are you!!!!";
+        document.getElementById("demo").innerHTML = "The length of the string is:" + text.length;
+
+        // charAt()
+        var text1 = "HELLO WORLD";
+        document.getElementById("demo1").innerHTML = "The charAt() method returns the character at a given position in a string:" + text1.charAt(0);
+
+        // charCodeAt()
+        let letter = "Hiiiii";
+        document.getElementById("demo2").innerHTML = "Returns the unicode of the character at a given position:" + letter.charCodeAt(0);
+
+        // codePointAt()
+        let letter1 = "Hiiiii";
+        document.getElementById("demo3").innerHTML = "Get the code point at the first character:" + letter1.codePointAt(0);
+
+        // at()
+        const name = "W3Schools";
+        let letter2 = name.at(2);
+        document.getElementById("demo4").innerHTML = "at() method returns an indexed element from a string:" + letter2;
+
+
+
+    </script>
+
+</body>
+
+</html>

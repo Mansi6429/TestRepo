@@ -1,0 +1,37 @@
+<!-- Concat() -->
+<!DOCTYPE html>
+<html>
+
+<body>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <p id="demo4"></p>
+    <script>
+        let text1 = "Hello";
+        let text2 = "World!";
+        let text3 = text1.concat(" ", text2);
+        document.getElementById("demo").innerHTML = "concat() method joins two or more strings:" + text3;
+
+        // [.]
+        let text = "HELLO WORLD";
+        document.getElementById("demo1").innerHTML = "The first character in the string is:" + text[0];
+
+        // String slice()
+        let fruits = "Apple, Banana, Kiwi";
+        let part = fruits.slice(7, 13);
+        document.getElementById("demo2").innerHTML = "The sliced (extracted) part of the string is:" + part;
+
+        // String substring()
+        let str = "Bike,Truck,Car";
+        document.getElementById("demo3").innerHTML = "The substring() method extract a part of a string and returns the extracted parts in a new string:" + str.substring(5, 10);
+
+        // String substr()
+        let str1 = "Apple, Banana, Kiwi";
+        document.getElementById("demo4").innerHTML = "The substr() method extract a part of a string and returns the extracted parts in a new string: " + str1.substr(7, 6);
+    </script>
+
+</body>
+
+</html>

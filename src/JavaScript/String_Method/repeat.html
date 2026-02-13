@@ -1,0 +1,25 @@
+<!-- repeat() -->
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h2>Repeat:</h2>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+
+    <script>
+        let text = "Hello world!";
+        let result = text.repeat(2);
+        document.getElementById("demo").innerHTML = "repeat() returns a new string with a number of copies of a string:" + result;
+
+        // replace()
+        let text1 = "Please visit Microsoft and Microsoft!";
+        let newText = text1.replace("Microsoft", "W3Schools");
+        document.getElementById("demo1").innerHTML = "Replace Microsoft with W3Schools in the paragraph below:" + newText;
+    </script>
+
+</body>
+
+</html>
