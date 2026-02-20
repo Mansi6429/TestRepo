@@ -1,7 +1,9 @@
 import React from 'react'
 
+// Ternary operator
+
 function Ternary() {
-    const arr = [1, 2, 6];
+    const arr = [1, 2, 6, 7, 9, 10];
     return (
         <div>
             {arr.map((value) => {
